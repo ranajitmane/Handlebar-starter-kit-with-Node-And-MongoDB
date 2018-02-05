@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>REGISTER</title>
+        <meta name="description" content="">
+      
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #16b162;
+    border-color: #16b162;
+    padding-bottom: 20px;
+}
+  </style>
+</head>
+		  <link rel="stylesheet" href= "/css/style.css">
+	</head>
+<body>
+<div id='header'>
+{{#if user}}
+Logged in as: <b>{{user.username}}</b>.
+<a href='/logout'>Logout</a>
+{{else}}
+<a href='/login'>Login</a> | <a href='/signup'>Sign up</a>
+{{/if}}
+</div>
+
+{{{body}}}
+
+</body>
+</html>

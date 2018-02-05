@@ -1,0 +1,54 @@
+<form action='/login' method='post'>
+	<div class="login">
+		<div class="container">
+			<br><br/><br>
+
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8 banner"style="background:url(/images/bg2.png);padding-bottom:353px;margin-left:-22px;" >
+					<div class="banners">
+						<div class="login-info">
+							<h2> A step towards </h2>
+							<h1>Fitter <span style="color:#676767;">& </span>Happier Workplace</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 log-form">
+					<div class="login-form">
+						<div class="logo">
+							<img src="/images/WIN-.png" class="img-responsive" style="margin-left:0px;">
+						</div>
+						<br/><br/>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<div class="icon-addon addon-lg">
+										<label>Enter your OTP below to proceed.</label>
+										<input type="password" placeholder="******" class="form-control" id="email" style="    line-height: 1.33;
+										height: 46px;
+										font-size: 18px;
+										padding: 20px 1px 10px 19px;">
+
+									</div>
+								</div></div></div>
+								<br/><br/>
+								<div class="submit" >
+									<button type="submit" class="btn btn-success " style="border-radius:18px;padding:12px 12px;width:100%;background:#11b4e5;border:1px solid #11b4e5;">SUBMIT</button>
+									<p style="text-align:center;margin-top:7px;"><span style="color:#676767;">Didn‘t receive the OTP? </span><a href="#" style="color:#60cdee;">Click here </a></p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</form>
+
+			<p>List of users:</p>
+
+			<ul>
+				{{#each users}}
+				<li><b>{{this.username}}</b></li>
+				{{/each}}
+			</ul>
+
+

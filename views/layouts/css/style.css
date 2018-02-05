@@ -1,0 +1,143 @@
+body{
+background:#eaeaea;
+}
+.banners{background:url(assets/images/bg2.png);}
+.login-form{background:#fff;border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;}
+.login-info{float: right;
+    margin-top: 80px;
+    margin-right: 29px;}
+	.login-info h1{margin-top:-5px; color:#36bfe9;}
+	.login-info h2{color:#676767;}
+	.log-form{background:#fff;padding-bottom:50px;border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;}
+	/************************************icon**************************/
+	.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #cccccc
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+img {
+margin-top: 3px;
+margin-left: -60px;  
+}
+@media(max-width:480px)
+{
+	.login-info h1 {
+    margin-top: 25px;
+    color: #36bfe9;
+    text-align: center;
+}
+
+.login-info h2 {
+    color: #676767;
+    font-size: 25px;
+text-align: center;}
+	.icon-addon addon-lg img{margin-left:-322px;margin-top:15px;border-right: 1px solid #ddd;
+    padding-right: 8px;}
+}
+	@media(max-width:360px)
+{
+	.login-info h1 {
+    margin-top: 25px;
+    color: #36bfe9;
+    text-align: center;
+}
+
+.login-info h2 {
+    color: #676767;
+    font-size: 25px;
+text-align: center;}
+	.icon-addon addon-lg img{margin-left:-322px;margin-top:15px;border-right: 1px solid #ddd;
+    padding-right: 8px;}
+}
+.icon-addon addon-lg img{margin-left:-350px;margin-top:15px;border-right: 1px solid #ddd;
+    padding-right: 8px;}
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+.submit{margin-top:35px;}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 14px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+	color:#cccccc;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+	color:#cccccc;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #cccccc;
+}
